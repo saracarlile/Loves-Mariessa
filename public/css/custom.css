@@ -1,0 +1,97 @@
+
+html {    
+	   background: url('../images/home-002.png') no-repeat center center fixed; 
+       background-color: black;
+	}
+    
+body {
+    background-color: transparent;
+}
+
+#nav-main {
+	position: fixed;
+    display: block;
+	top: 50%;
+	width: 100%;
+	border-color: lightpink;
+    margin: 0px;
+}
+
+
+.navbar-default {
+	border-color: lightpink;
+	font-size: 22px;
+	font-family: 'Permanent Marker', cursive;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #000;
+    color: #cc0066;
+
+}
+
+.navbar-nav {
+float:none;
+margin:0 auto;
+display: block;
+text-align: center;
+}
+
+.navbar-nav>li {
+display: inline-block;
+float: none;
+}
+
+#main-gallery {   
+    margin-top: 100px;    
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+	background-color: transparent;
+	color: #848482;
+}
+
+.navbar-default .navbar-nav>li>a {
+
+	color: #E5E4E2;
+}
+
+.navbar-collapse.in {
+	border-color: lightpink;
+}
+.navbar-collapse.collapsing {
+	border-color: lightpink;
+}
+
+.thumbnail  {
+background-color: rgba( 0, 0, 0, 0.1 );
+border: solid 1px rgba(255, 255, 255, 0.5);
+}
+.well{
+background-color: rgba( 0, 0, 0, 0.1 );
+border : solid 1px rgba(192,63,182,0.5);
+}
+
+.white-text{
+    color: white;
+}
+
+#add-background {
+    background-color: rgba(0, 3, 2, 0.8)
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/*Ipad portriat */
+	/* Iphone 4/4s portriat */
+
+	.navbar-nav>li>a {
+font-size: 24px;
+float: left;
+clear: right;
+}
+
+#nav-main ul li {
+	margin-left: 0px;
+}
+
+
+}
