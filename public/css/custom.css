@@ -14,7 +14,8 @@ body {
 	top: 50%;
 	width: 100%;
 	border-color: lightpink;
-    margin: 0px;
+  margin: 0px;
+  margin-left: -16px;
 }
 
 
@@ -40,11 +41,14 @@ display: inline-block;
 float: none;
 }
 
+.navbar {
+  border-radius: 0px; 
+}
+
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
 	background-color: transparent;
 	color: #848482;
-	border-radius: 0px; 
 }
 
 .navbar-default .navbar-nav>li>a {
