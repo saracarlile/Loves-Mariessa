@@ -104,6 +104,7 @@ clear: right;
 .footer {
   margin-top: 100px;
   margin-bottom: 100px;
+  border-top: 2px solid white;
 }
 
 /* ----------- iPhone 4 and 4S ----------- https://css-tricks.com/snippets/css/media-queries-for-standard-devices*/
