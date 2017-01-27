@@ -101,6 +101,11 @@ clear: right;
 
 }
 
+.footer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 /* ----------- iPhone 4 and 4S ----------- https://css-tricks.com/snippets/css/media-queries-for-standard-devices*/
 
 /* Portrait and Landscape */
